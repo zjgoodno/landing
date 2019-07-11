@@ -1,0 +1,62 @@
+/* Product Info Cards */
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 218px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 220px;
+  padding: 2px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  display: block;
+}
+
+.card img{
+  height: 130px;
+  width: 220px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.card p {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+/* Footer Card */
+
+.footer-card li {
+  display: inline;
+  font-size: 50px;
+}
+
+.footer-card ul {
+  text-align: center;
+}
+
+.footer-card p {
+  text-align: center;
+}
+
+.footer-card i {
+  color: grey;
+}
+
+.footer-card {
+  background-color: black;
+  color:  grey;
+  padding: 30px;
+}
+
+.footer-card a:hover {
+  opacity: .5;
+}
